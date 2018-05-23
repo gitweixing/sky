@@ -2,12 +2,14 @@ package factory;
 
 import java.math.BigDecimal;
 
+
 /**  
-* @Author weixng 
-* @Time 2018Äê5ÔÂ23ÈÕ ÏÂÎç1:22:31  
-* @Version 1.0 
-* <p>Description:</p> ³ý·¨
-*/
+* @ClassName: Divide  
+* @Description: é™¤æ³•
+* @author weixing  
+* @date 2018å¹´5æœˆ23æ—¥  
+*    
+*/  
 public class Divide extends Calculate {
 
 	@Override

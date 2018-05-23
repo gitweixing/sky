@@ -4,11 +4,12 @@ import java.math.BigDecimal;
 import java.util.Scanner;
 
 
+
 /**  
 * @ClassName: Factory  
-* @Description: ¼ÆËã»ú¹¤³§Ä£Ê½ 
+* @Description: è®¡ç®—æœºå·¥å‚æ¨¡å¼  
 * @author weixing  
-* @date 2018Äê5ÔÂ23ÈÕ  
+* @date 2018å¹´5æœˆ23æ—¥  
 *    
 */  
 public class Factory {
@@ -16,11 +17,11 @@ public class Factory {
 	public static void main(String[] args) {
 	
 		Scanner sc=new Scanner(System.in);
-		System.out.println("ÇëÊäÈëµÚÒ»¸öÊı:");
+		System.out.println("è¯·è¾“å…¥ä¸€ä¸ªæ•°:");
 		BigDecimal numberA=sc.nextBigDecimal();
-		System.out.println("ÇëÊäÈëÔËËã·ûºÅ:");
+		System.out.println("è¯·è¾“å…¥è¿ç®—ç¬¦å·:");
 		String symbol=sc.next();
-		System.out.println("ÇëÊäÈëµÚ¶ş¸öÊı:");
+		System.out.println("è¯·è¾“å…¥ä¸€ä¸ªæ•°:");
 		BigDecimal numberB=sc.nextBigDecimal();
 		
 		Calculate calculate=createCalulate(symbol);
@@ -47,7 +48,7 @@ public class Factory {
 			break;
 
 		default:
-			System.out.println("Î´Öª¼ÆËã·ûºÅ");
+			System.out.println("æœªçŸ¥è¿ç®—ç¬¦ï¼");
 			break;
 		}
 		return calculate;

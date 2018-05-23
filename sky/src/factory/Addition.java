@@ -4,11 +4,11 @@ import java.math.BigDecimal;
 
 
  
-/**  
+ /**  
 * @ClassName: Addition  
-* @Description: ¼Ó·¨
+* @Description: åŠ æ³•
 * @author weixing  
-* @date 2018Äê5ÔÂ23ÈÕ  
+* @date 2018å¹´5æœˆ23æ—¥  
 *    
 */  
 public class Addition extends Calculate {

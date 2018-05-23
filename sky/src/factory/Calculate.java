@@ -2,6 +2,14 @@ package factory;
 
 import java.math.BigDecimal;
 
+
+/**  
+* @ClassName: Calculate  
+* @Description: 计算实体类
+* @author weixing  
+* @date 2018年5月23日  
+*    
+*/  
 public class Calculate {
 	private BigDecimal numberA;
 	private BigDecimal numberB;

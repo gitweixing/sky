@@ -2,11 +2,12 @@
 
 import java.math.BigDecimal;
 
+
 /**  
 * @ClassName: Subtraction  
-* @Description: ¼õ·¨
+* @Description: å‡æ³• 
 * @author weixing  
-* @date 2018Äê5ÔÂ23ÈÕ  
+* @date 2018å¹´5æœˆ23æ—¥  
 *    
 */  
 public class Subtraction extends Calculate {
